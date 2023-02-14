@@ -14,7 +14,7 @@ import Login from "./pages/Login";
 import SingleMeetup from "./pages/SingleMeetup";
 import Profile from "./pages/Profile";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -56,7 +56,6 @@ function App() {
               <Route path="/meetups/:meetupId" element={<SingleMeetup />} />
             </Routes>
           </div>
-          <Footer />
         </div>
       </Router>
     </ApolloProvider>
