@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/airDnD",
+  process.env.MONGODB_URI || "mongodb+srv://Kevin_Umayam:MongoPW123@cluster0.7lmrnmc.mongodb.net/?retryWrites=true&w=majority ",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
